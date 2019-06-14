@@ -1,0 +1,38 @@
+/* 合作伙伴*/
+.partner-bg {
+    width: 100%;
+    /* height: 380px; */
+    text-align: center;
+    background-color:#fff;
+    margin: -175px 0 13px;
+}
+
+    .partner-bg .con-title {
+    }
+
+    .partner-bg .con-title h1 {
+        border-bottom: 2px solid #fff;
+    }
+
+    .partner-bg .con-title span {
+        /* width: 512px; */
+        margin: 16px auto;
+        line-height: 28px;
+        font-size: 20px;
+    }
+
+.partner-nav {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+    .partner-nav div {
+       
+        width: 20%;
+        /* display: inline-block; */
+        margin-top: 22px;
+        margin-bottom: 60px;
+        margin-right: 0px;
+    }

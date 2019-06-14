@@ -1,0 +1,199 @@
+/* 产品解决方案  */
+.module-con {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    /* background: #ddd; */
+    /* padding: 60px 0 0; */
+    
+}
+    .con1{
+        background: url(../../images/bg2.png) no-repeat;
+        /* background-position-y: -30px; */
+        padding: 50px 0;
+    }
+
+    .module-con .con-title {
+        width: 100%;
+        margin: 30px auto 30px;
+        text-align: center;
+    }
+
+        .module-con .con-title h1 {
+            display: inline-block;
+            font-size: 40px;
+            line-height: 40px;
+            color: #333;
+            text-align: center;
+            padding: 0 10px;
+            padding-bottom: 20px;
+            border-bottom: 4px solid #3ae7ca;
+            position: relative;
+            opacity: 0;
+            transition: all 1s;
+        }
+
+.title1 {
+    display: inline-block;
+    font-size: 36px;
+    line-height: 40px;
+    color: #333;
+    text-align: center;
+    padding: 0 10px;
+    padding-bottom: 20px;
+    /* border-bottom: 4px solid #3ae7ca; */
+    position: relative;
+    transition: all 1s;
+}
+.title1 strong{
+    color:#30d0b6;
+    font-size:77px;
+    margin-right: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+   
+}
+
+
+
+.module-con .con-title span {
+    font-size: 22px;
+    color: #666666;
+    line-height: 20px;
+    margin: 15px 0 50px;
+    display: block;
+    transition: all 1s .2s;
+}
+
+.con1 .con-title span, .con3 .con-title span, .con8 .con-title span {
+    left: 200px;
+}
+
+.con2 .con-title span {
+    top: 50px;
+}
+
+.con1.in .con-title span, .con2.in .con-title span, .con3.in .con-title span, .con8.in .con-title span {
+    left: 0px;
+    top: 0px;
+    opacity: 1;
+}
+
+.module-con .module-con-provide {
+    display: flex;
+    width: 1200px;
+    overflow: hidden;
+    margin-bottom: 30px;
+    justify-content:space-around;
+    align-content:space-around;
+}
+
+    .module-con .module-con-provide .box {
+        display: flex;
+        position: relative;
+        /* flex-wrap:nowrap; */
+        width: 23%;
+        height: 460px;
+        /* float: left; */
+        margin-bottom: 30px;
+        overflow: hidden;
+        margin:auto;
+        background-color: #fff;
+    }
+
+
+.module-con .module-con-provide .box:hover {
+    box-shadow: 1px 1px 10px 1px #5f5c5e;
+    z-index: 2;
+    cursor: pointer;
+} 
+
+.module-con .module-con-provide .box img {
+    width: 280px;
+    height: 200px;
+    margin:0 auto;
+}
+.module-con .module-con-provide .box:nth-child(1) img {
+    width: 380px;
+    margin-left:-30px;
+}
+.module-con .module-con-provide .box .box-content {
+    position: absolute;
+    top: 200px;
+    /* right:275px; */
+    width: 257px;
+    /* height: 400px; */
+    /* z-index: 2;  */
+    background-color: #fff;
+    padding:0 15px;
+    /* text-align: center; */
+}
+.module-con .module-con-provide .box .box-content .box-title{ 
+    width: 190px;
+    height: 40px;
+    margin: 23px auto;
+}
+    .module-con .module-con-provide .box .box-content .box-title .title {
+        width: 190px;
+        height: 40px;
+        text-align: center;
+        color: #fff;
+        font-size: 20px;
+        font-weight: 700;
+        color:#000;
+        border-bottom: 3px solid #3ae7ca;
+        
+    }
+    
+    .module-con .module-con-provide .box .box-content .con {
+        display: block;
+        width: 242px;
+        height: 77px;
+        font-size: 16px;
+        line-height: 26px;
+        
+        margin: 15px auto 0;
+       
+        color:#666;
+    }
+    .module-con .module-con-provide .box .box-content .btn{
+        /* display: inline-block; */
+        float:left;
+        width: 110px;
+        height: 40px;
+        line-height: 40px;
+        margin-top: 36px;
+        margin-right: 27px;
+        font-size:16px;
+        border-radius: 5px;
+        text-align: center;
+    }
+    .module-con .module-con-provide .box .box-content .btn:after{
+        content:"";
+        position: relative;
+        bottom:40px;
+        display: inline-block;
+        width: 110px;
+        height: 40px;
+        border-radius: 5px;
+        background-color:rgba(0, 0, 0, 0.3);
+        opacity: 0;
+        transition:.2s;
+    }
+    .module-con .module-con-provide .box .box-content .btn:hover::after{
+        opacity: 1;
+        cursor: pointer;
+    }
+    .module-con .module-con-provide .box .box-content .on{
+        margin-top: 36px;
+    }
+    .module-con .module-con-provide .box .box-content .btn a{
+        /* display: inline-block; */
+        color:#fff;
+    }
+    .module-con .module-con-provide .box .box-content #btn-one{
+        background-color: #3ae7ca;
+    }
+    .module-con .module-con-provide .box .box-content #btn-two{
+        background-color: #ffb12b;
+        margin-right: 0;
+    }

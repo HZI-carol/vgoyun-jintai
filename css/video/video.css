@@ -1,0 +1,880 @@
+/* VR视频页面 */
+
+.threed-nav{
+  margin:0 auto;
+}
+
+.threed-nav>ul li{
+  min-width: 100px!important;
+ margin-right: 40px!important;
+}
+/* banner */
+.banner{
+  position: relative;
+  width: 100%;
+  height: 580px;
+  overflow: hidden;
+}
+.banner .banner-about{
+  position: absolute;
+  top:23%;
+  left: 0;
+  right: 0;
+  width: 700px;
+  margin:auto;
+  color:#fff;
+  text-align: center;
+  line-height: 60px;
+  
+}
+.banner .banner-about h2{
+  font-size: 60px;
+  font-weight: normal;
+  font-family: cursive
+ 
+}
+.banner .banner-about p{
+  width: 330px;
+  margin:10px auto;
+  line-height: 60px;
+  font-size: 25px;
+  color:#FDEFE0;
+  background-color: #F3A828;
+}
+.module-con {
+  
+}
+
+.module-con .wrap .title h3{
+  width: 100%;
+  line-height: 100px;
+  font-size: 36px;
+  text-align: center;
+  color:#333;
+}
+
+/* 颠覆传统视频展示营销 */
+
+.module-market-content{
+  height: 420px;
+}
+.module-market-content>ul{
+/* display: flex;
+flex-wrap: wrap; */
+}
+.module-market-content>ul>li:not(.lt){
+  padding:0 0 57px 20px;
+}
+.module-market-content>ul>li>.market-text{
+  line-height: 40px;
+  margin-top:-120px;
+  margin-left: 40px;
+  color:#fff;
+  font-size: 16px;
+}
+.module-market-content>ul>.lm>.market-text{
+  margin-left: 20px!important;
+}
+.module-market-content>ul>li>.market-text h4{
+  font-size: 25px;
+  font-weight: bold;
+}
+
+/* 强大的VR视频互动漫游系统 */
+.module-interaction{
+  text-align: center;
+  background: url("../../images/video/videobj1.png") no-repeat;
+  padding: 30px 0 60px;
+}
+.module-con .wrap>.title>p{
+  font-size: 22px;
+  color: #666;
+}
+.module-interaction-content{
+margin-top:100px;
+}
+ /* VR视频功能插件 实现情景营销 */
+ .module-scen-content ul{
+   display: flex;
+   justify-content: space-between;
+   margin:30px 0 50px;
+ }
+ .module-scen-content ul>li>div>h4{
+  margin:30px 0 10px;
+   font-size: 22px;
+  color:#333;
+  font-weight: bold;
+ }
+ .module-scen-content ul>li>div>p{
+   line-height: 30px;
+  font-size: 16px;
+  color:#525353;
+ }
+
+ /* 维构支持与服务 */
+ .module-support{
+  background: url("../../images/video/videobj2.jpg") no-repeat;
+  padding: 30px 0 90px;
+ }
+ .module-support .title h3{
+   color:#fff!important;
+   margin-bottom: 90px;
+ }
+ .module-support-content ul{
+   display:flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   width: 1206px;
+   height: 390px;
+   }
+ .module-support-content ul li{
+  display:flex;
+  align-items: center;
+  width: 33.33333%;
+  margin-right: -100px;
+  margin-bottom: 140px;
+  font-size: 25px;
+  color:#fff;
+}
+.module-support-content ul li i{
+  width: 120px;
+  height: 120px;
+  line-height: 120px;
+  margin-right: 40px;
+  text-align: center;
+  cursor: pointer;
+}
+.module-support-content ul li i.iconfont{
+  font-size: 60px;
+  color:#fff;
+}
+.module-support-content ul li:nth-of-type(1) i{
+  background-color: #67BBFB;
+}
+.module-support-content ul li:nth-of-type(2) i{
+  background-color: #30D0B6;
+}
+.module-support-content ul li:nth-of-type(3) i{
+  background-color: #7775FD;
+}
+.module-support-content ul li:nth-of-type(4) i{
+  background-color: #0EAE70;
+}
+.module-support-content ul li:nth-of-type(5) i{
+  background-color: #F4CA40;
+}
+.module-support-content ul li:nth-of-type(6)>p{
+  border: 1px solid #fff;
+  padding:18px 42px;
+  line-height: 40px;
+  text-align: center;
+  text-indent: 12px;
+  color: #30D0B6;
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+/* 合作伙伴 */
+.partner-bg {
+  width: 100%;
+  text-align: center;
+  background-color:#fff;
+  margin-top:30px;
+}
+  .partner-bg .con-title h1 {
+      border-bottom: 2px solid #fff;
+  }
+
+  .partner-bg .con-title span {
+      /* width: 512px; */
+      margin: 16px auto;
+      line-height: 28px;
+      font-size: 20px;
+  }
+
+.partner-nav {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1200px;
+  margin: 56px auto 0;
+}
+
+  .partner-nav div {
+     
+      width: 20%;
+      /* display: inline-block; */
+      margin-top: 22px;
+      margin-bottom: 60px;
+      margin-right: 0px;
+  }
+
+  /* 联系我们 */
+.con6{
+  width: 100%;
+  background: url("../../images/video/videobj3.jpg") no-repeat;
+  background-size: cover;
+  color:#fff;
+  padding:30px 0 45px 0;
+}
+.con6 .title h3{
+  color:#fff!important;
+}
+.con6 .module-con-contact{
+  width: 490px;
+  font-size: 25px;
+  margin:10px  0 0 310px;
+  text-align: right;
+  line-height: 70px;
+}
+.con6 .module-con-contact input{
+  padding:14px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-family:"微软雅黑";
+  color:#fff!important;
+}
+.con6 .module-con-contact input[type=text]{
+  width: 330px;
+  border:1px solid #fff;
+  background-color: transparent;
+  margin-left: 10px;
+}
+
+.con6 .module-con-contact input[type=submit]{
+position: relative;
+background-color:#FFB12B;
+padding: 10px 50px;
+border:none;
+color:#fff;
+font-size: 22px;
+letter-spacing: 5px;
+cursor: pointer;
+transition: .5s;
+margin : 40px 103px 0 0;
+}
+
+.con6 .module-con-contact input[type=submit]:hover{
+  -webkit-transform:scale(1.1) ;
+  -moz-transform:scale(1.1);
+  -ms-transform:scale(1.1);
+  -o-transform:scale(1.1);
+  transform:scale(1.1);
+  color:#fff;
+}
+
+/* 产品介绍页面 */
+.module-introduce{
+  text-align: center;
+  background: url("../../images/video/videobj4.jpg") no-repeat;
+  background-size: cover;
+  color:#333;
+  padding: 20px 0 46px;
+}
+.module-introduce>.wrap>.title>p{
+  width: 745px;
+  margin:20px auto 40px;
+  font-size: 16px;
+  text-indent: 35px;
+  color:#333;
+  line-height: 30px;
+}
+/* 营销优势 */
+.module-advantage{
+  padding: 30px 0 90px;
+}
+.module-advantage .module-advantage-content{
+  position: relative;
+  width: 100%;
+  height: 600px;
+  background: url("../../images/video/产品介绍2.png") no-repeat;
+  background-position: center;
+  text-align: center;
+}
+.module-advantage .module-advantage-content h4{
+  position: absolute;
+  top:46%;
+  left: 0;
+  right: 0;
+  font-size: 35px;
+  color:#333;
+  font-weight: 600;
+}
+.module-advantage .module-advantage-content ul li{
+  position: relative;
+  text-align: center;
+}
+.module-advantage .module-advantage-content ul li p{
+  position: absolute;
+  max-width: 250px;
+  line-height: 25px;
+  padding: 44px 30px;
+  font-size: 15px;
+  border: 1px dashed #AAAAAA;
+  border-radius: 5px;
+  color: #666;
+}
+.module-advantage .module-advantage-content ul li span{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  width:100px;
+  height: 100px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 19px;
+  border-radius: 50%;
+  color: #fff;
+}
+.module-advantage .module-advantage-content ul li h5{
+  position: absolute;
+  font-size: 20px;
+  font-weight: 600;
+  color:#fff;
+}
+.module-advantage .module-advantage-content ul li:nth-of-type(1)>p{
+  top: -50px;
+  left: 77px;
+}
+.module-advantage .module-advantage-content ul li:nth-of-type(1)>span{
+  top:22px;
+  left: 426px;
+  background-color: #30D0B6;
+}
+.module-advantage .module-advantage-content ul li:nth-of-type(1)>h5{
+  top: 144px;
+  left: 527px;
+}
+.module-advantage .module-advantage-content ul li:nth-of-type(2)>p{
+  top: 205px;
+  left: -55px;
+}
+.module-advantage .module-advantage-content ul li:nth-of-type(2)>span{
+  top:220px;
+  left: 268px;
+  width: 120px;
+  height: 120px;
+  padding: 30px;
+  background-color: #67BBFB;
+}
+.module-advantage .module-advantage-content ul li:nth-of-type(2)>h5{
+  top: 255px;
+  left: 418px;
+}
+.module-advantage .module-advantage-content ul li:nth-of-type(3)>p{
+  top: 420px;
+  left: 0px;
+}
+.module-advantage .module-advantage-content ul li:nth-of-type(3)>span{
+  top:441px;
+  left: 350px;
+  width: 120px;
+  height: 120px;
+  background-color: #30D0B6;
+}
+.module-advantage .module-advantage-content ul li:nth-of-type(3)>h5{
+  top: 400px;
+  left: 460px;
+}
+.module-advantage .module-advantage-content ul li:nth-of-type(4)>p{
+  top: 483px;
+  left: 820px;
+}
+.module-advantage .module-advantage-content ul li:nth-of-type(4)>span{
+  top:485px;
+  left: 663px;
+  width: 120px;
+  height: 120px;
+  padding: 5px;
+  background-color: #7775FD;
+}
+.module-advantage .module-advantage-content ul li:nth-of-type(4)>h5{
+  top: 437px;
+  left: 608px;
+}
+.module-advantage .module-advantage-content ul li:nth-of-type(5)>p{
+  top: 283px;
+  left: 918px;
+}
+.module-advantage .module-advantage-content ul li:nth-of-type(5)>span{
+  top:300px;
+  left: 806px;
+  background-color: #0EAE70;
+}
+.module-advantage .module-advantage-content ul li:nth-of-type(5)>h5{
+  top:327px;
+  left: 719px;
+}
+.module-advantage .module-advantage-content ul li:nth-of-type(6)>p{
+  top: 3px;
+  left: 870px;
+}
+.module-advantage .module-advantage-content ul li:nth-of-type(6)>span{
+  top:70px;
+  left:737px;
+  padding: 10px;
+  background-color: #F4CA40;
+}
+.module-advantage .module-advantage-content ul li:nth-of-type(6)>h5{
+  top:180px;
+  left: 680px;
+}
+/* 系统功能 */
+.module-function{
+background-color: #F8F8F8;
+padding: 20px 0 40px;
+}
+.module-function .module-function-content ul{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.module-function .module-function-content ul li{
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 18px;
+  color:#333;
+}
+.module-function .module-function-content ul li i.iconfont{
+  width: 110px;
+  height: 110px;
+  margin:30px auto;
+  line-height: 110px;
+  font-size: 60px;
+  background-color:#fff;
+  border-radius: 50%;
+  text-align: center;
+}
+.module-function .module-function-content ul li:nth-of-type(1) i.iconfont{
+  color:#30D0B7;
+}
+.module-function .module-function-content ul li:nth-of-type(2) i.iconfont{
+  color:#67BBFB;
+}
+.module-function .module-function-content ul li:nth-of-type(3) i.iconfont{
+  color:#F4CA40;
+}
+.module-function .module-function-content ul li:nth-of-type(4) i.iconfont{
+  color:#0EAE70;
+}
+.module-function .module-function-content ul li:nth-of-type(5) i.iconfont{
+  color:#67BBFB;
+}
+.module-function .module-function-content ul li:nth-of-type(6) i.iconfont{
+  color:#67BBFB;
+}
+.module-function .module-function-content ul li:nth-of-type(7) i.iconfont{
+  color:#0EAE70;
+}
+.module-function .module-function-content ul li:nth-of-type(8) i.iconfont{
+  color:#30D0B7;
+}
+.module-function .module-function-content ul li:nth-of-type(9) i.iconfont{
+  color:#89E463;
+}
+.module-function .module-function-content ul li:nth-of-type(10) i.iconfont{
+  color:#FD7D60;
+}
+
+/* 行业应用 */
+.module-application{
+  padding: 25px 0 35px;
+}
+.module-application .module-application-content ul{
+  display: flex;
+  justify-content: space-between;
+  width: 1230px;
+  height: 560px;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.module-application .module-application-content ul li{
+  width: 33.333%;
+}
+.module-application .module-application-content ul li .application-text{
+  padding: 20px 50px;
+  color:#fff;
+  margin-top:-180px;
+  line-height: 30px;
+  font-size: 14px;
+}
+.module-application .module-application-content ul li .application-text h5{
+  font-size: 25px;
+  line-height: 80px;
+}
+
+/* 四步实现VR视频营销 */
+.module-realiz{
+  text-align: center;
+  background: url("../../images/video/videobj5.jpg") no-repeat;
+  background-size: cover;
+  padding: 30px 0 60px;
+}
+.module-realiz .wrap .title h3{
+  color:#fff;
+}
+.module-realiz .module-realiz-content ul {
+  display: flex;
+  justify-content: space-between;
+  width: 1216px;
+  margin:80px auto;
+}
+.module-realiz .module-realiz-content ul li{
+  color:#fff;
+
+}
+.module-realiz .module-realiz-content ul li>i.iconfont{
+  display: block;
+  font-size: 60px;
+  color:#fff;
+  margin:0 0 30px -70px;
+  
+}
+.module-realiz .module-realiz-content ul li>span{
+  font-size: 50px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.module-realiz .module-realiz-content ul li>p{
+  display: inline-block;
+  font-size: 25px;
+}
+.module-realiz .module-realiz-content ul li>i{
+  display: inline-block;
+  font-size: 50px;
+  vertical-align: top;
+  margin:-20px 0 0 15px;
+}
+.module-realiz .module-realiz-content button{
+  background-color: #30D0B6;
+  border: none;
+  color:#EBF9F6;
+  font-size: 25px;
+  padding: 10px 90px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: .8s;
+}
+.module-realiz .module-realiz-content button:hover{
+  transform: scale(1.1);
+  color: #fff;
+}
+
+/* 漫游系统项目分析页面 */
+
+/* VR视频的魅力 */
+.module-charm{
+  padding: 20px 0 40px;
+}
+.module-charm .module-charm-content{
+  position: relative;
+}
+.module-charm .module-charm-content>ul{
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 920px;
+  height: 500px;
+  margin:0 auto;
+  text-align: center;
+}
+.module-charm .module-charm-content>ul li{
+  position: relative;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 130px;
+  height: 130px;
+  line-height: 30px;
+  border-radius: 50%;
+  background-color: #30D0B7;
+  color: #fff;
+  font-size: 18px;
+  padding: 28px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.module-charm .module-charm-content>ul li:hover,.module-advantage .module-advantage-content ul li span:hover{
+  -webkit-animation: yj 2s both infinite linear;
+}
+.module-advantage-content ul li>p.in{
+  -webkit-animation: yj .5s both linear .5s;
+}
+
+@keyframes yj {
+  0% {
+      transform: scale(1);
+  }
+
+  25% {
+      transform: scale(1.2);
+  }
+
+  50% {
+      transform: scale(1);
+  }
+
+  75% {
+      transform: scale(0.8);
+  }
+
+  100% {
+      transform: scale(1);
+  }
+}
+.module-charm .module-charm-content>ul li:nth-of-type(1){
+  top:94px;
+  left: 10px;
+}
+.module-charm .module-charm-content>ul li:nth-of-type(2){
+  top:50px;
+  left: 76px;
+  background-color: #0EAE70;
+}
+.module-charm .module-charm-content>ul li:nth-of-type(3){
+  top:11px;
+  left: 137px;
+  background-color: #30D0B6;
+}
+.module-charm .module-charm-content>ul li:nth-of-type(4){
+  top:95px;
+  left: 168px;
+  background-color: #F4CA40;
+}
+.module-charm .module-charm-content>ul li:nth-of-type(5){
+  top:178px;
+  left: 182px;
+  background-color: #0EAE70;
+}
+.module-charm .module-charm-content>ul li:nth-of-type(6){
+  width: 150px;
+  height: 150px;
+  top:170px;
+  left: -340px;
+  background-color: #67BBFB;
+}
+.module-charm .module-charm-content>ul li:nth-of-type(7){
+  width: 150px;
+  height: 150px;
+  top:21px;
+  left: 21px;
+  background-color: #F4CA40;
+}
+.module-charm .module-charm-content>ul li:nth-of-type(8){
+  width: 150px;
+  height: 150px;
+  top:95px;
+  left: -145px;
+  background-color: #7775FD;
+}
+
+/* 做一个VR视频能给商企带来什么 */
+.module-bring{
+  height: 660px;
+background-color: #F8F8F8;
+padding: 30px 0 40px;
+}
+.module-bring-content>ul>li{
+position: relative;
+}
+
+.module-bring-content>ul>li>h5{
+  position: absolute;
+  z-index:2;
+  font-size: 24px;
+  transform: rotate(20deg);
+  color: #fff;
+  font-weight: 600;
+}
+.module-bring-content>ul>li>p{
+  position: absolute;
+  line-height: 25px;
+  z-index:2;
+  text-align: center;
+  font-size: 15px;
+  color:#fff;
+}
+.module-bring-content>ul>li>.bring-text{
+  position: absolute;
+  line-height: 28px;
+  font-size: 16px;
+  border: 1px dashed #AAAAAA;
+  color: #333;
+  border-radius: 5px;
+  padding: 15px 20px;
+  z-index:2;
+}
+.module-bring-content>ul>li>.bring-text>li::before{
+    content: "";
+    display: inline-block;
+    position: relative;
+    top: -5px;
+    left: -5px;
+    width: 2px;
+    height: 2px;
+    background-color: #333;
+    border-radius: 50%;
+
+}
+.module-bring-content>ul>li:nth-of-type(1)>img{
+  position: absolute;
+  left: 100px;
+}
+.module-bring-content>ul>li:nth-of-type(1)>h5{
+  top: 205px;
+  left: 144px;
+  letter-spacing: 1px;
+}
+.module-bring-content>ul>li:nth-of-type(1)>p{
+  width: 160px;
+  top: 169px;
+  left: 408px;
+}
+.module-bring-content>ul>li:nth-of-type(1)>.bring-text{
+  top: 148px;
+  left: 660px;
+}
+.module-bring-content>ul>li:nth-of-type(2)>img{
+  position: relative;
+  left: 47px;
+  top: 250px;
+}
+.module-bring-content>ul>li:nth-of-type(2)>h5{
+  top: 303px;
+  left: 98px;
+  letter-spacing: 3px;
+}
+.module-bring-content>ul>li:nth-of-type(2)>p{
+  width: 183px;
+  top: 265px;
+  left: 445px;
+}
+.module-bring-content>ul>li:nth-of-type(2)>.bring-text{
+  top: 249px;
+  left: 742px;
+}
+.module-bring-content>ul>li:nth-of-type(3)>img{
+  position: relative;
+  left: -12px;
+  top: 192px;
+}
+.module-bring-content>ul>li:nth-of-type(3)>h5{
+  top: 260px;
+  left: 56px;
+  letter-spacing: 8px;
+}
+.module-bring-content>ul>li:nth-of-type(3)>p{
+  width: 198px;
+  top: 215px;
+  left: 508px;
+}
+.module-bring-content>ul>li:nth-of-type(3)>.bring-text{
+  top: 200px;
+  left: 807px;
+}
+/* 为什么选择维构 */
+.module-choose{
+  padding: 30px 0 40px;
+}
+.module-choose .module-choose-content ul{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  color:#333;
+  line-height: 45px;
+  margin-top:50px;
+}
+.module-choose .module-choose-content ul li p{
+  font-size: 25px;
+}
+.module-choose .module-choose-content ul li span{
+  display: inline-block;
+  width: 275px;
+  line-height: 30px;
+  font-size: 16px;
+}
+.module-choose .module-choose-content ul li:last-of-type p{
+  margin-top:15px;
+}
+/* 为什么选择维构2 */
+.module-chooseTwo{
+  padding: 23px 0 60px;
+  background-color:#F8F8F8; 
+}
+.module-chooseTwo .module-chooseTwo-content ul{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  color:#333;
+  margin-top:20px;
+}
+.module-chooseTwo .module-chooseTwo-content ul li{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 225px;
+  height: 225px;
+  background-color: #30D0B7;
+  line-height: 60px;
+  font-size: 18px;
+  color:#fff;
+}
+.module-chooseTwo .module-chooseTwo-content ul li>i.iconfont{
+  width: 115px;
+  height: 115px;
+  line-height: 115px;
+  margin-top:32px;
+  border-radius: 50%;
+  background-color: #fff;
+  font-size: 50px;
+}
+.module-chooseTwo .module-chooseTwo-content ul li:nth-of-type(1){
+  background-color: #30D0B7;
+}
+.module-chooseTwo .module-chooseTwo-content ul li:nth-of-type(1)>i.iconfont{
+  color: #30D0B7;
+}
+.module-chooseTwo .module-chooseTwo-content ul li:nth-of-type(2){
+  background-color: #0EAE70;
+}
+.module-chooseTwo .module-chooseTwo-content ul li:nth-of-type(2)>i.iconfont{
+  color:#0EAE70;
+}
+.module-chooseTwo .module-chooseTwo-content ul li:nth-of-type(3){
+  background-color: #67BBFB;
+}
+.module-chooseTwo .module-chooseTwo-content ul li:nth-of-type(3)>i.iconfont{
+  color: #67BBFB;
+}
+.module-chooseTwo .module-chooseTwo-content ul li:nth-of-type(4){
+  background-color: #F4CA40;
+}
+.module-chooseTwo .module-chooseTwo-content ul li:nth-of-type(4)>i.iconfont{
+  color: #F4CA40;
+}
+.module-chooseTwo .module-chooseTwo-content ul li:nth-of-type(5){
+  background-color: #7775FD;
+}
+.module-chooseTwo .module-chooseTwo-content ul li:nth-of-type(5)>i.iconfont{
+  color: #7775FD;
+}
+
+/* 开启VR视频营销  */
+.analyze-contact{
+  background: url("../../images/video/videobj6.jpg") no-repeat;
+  background-size: cover;
+}
+.analyze-contact>.wrap>.title>h3{
+  font-weight: 800;
+  letter-spacing: 6px;
+}
+.analyze-contact>.wrap>.module-con-contact>input[type=text]{
+  background: rgba(255,255,255,.2);
+  border-color: #2AB7A1;
+}

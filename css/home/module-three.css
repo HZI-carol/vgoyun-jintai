@@ -1,0 +1,102 @@
+/* 服务 支持 */
+.con2{
+   position: relative;
+   text-align: center;
+   background: url(../../images/bg.png) no-repeat;
+  /* background-position: -280px 0; */
+  padding: 60px 0 0;
+}
+#support>.title1{
+    color: #fff;
+}
+#support>span{
+    color: #fff;
+}
+.module-con .module-con-provide .support .support-content{
+    /* position: relative; */
+    /* right:20px; */
+    width: 285px;
+    line-height: 40px;
+    background-size: 280px 244px;
+    background-position: center;
+    text-align: center;
+    transition: all .25s .34s;
+}
+.module-con .module-con-provide .support .support-content::before,.module-con .module-con-provide .support .support-content::after{
+    transition: all .25s .34s;
+}
+.module-con .module-con-provide .support .support-content:hover{
+    background: #35e7cf;
+}
+ 
+.module-con .module-con-provide .support .support-content:hover:before{
+    border-right:65px solid #35e7cf;
+}
+.module-con .module-con-provide .support .support-content:hover::after{
+    border-left:65px solid #35e7cf;
+}
+/* .module-con .module-con-provide .support .support-content .boxBor {
+    width: 399px;
+    height: 188px;
+    background: #35e7cf;
+    position: absolute;
+    left: 0;
+    top: 0;
+    cursor: pointer;
+    opacity: 0;
+    z-index: 6;
+} */
+.module-con .module-con-provide .support .support-content .con-i{
+    position: relative;
+    top:60px;
+}
+.module-con .module-con-provide .support .support-content .con-i .iconfont{
+    font-size: 60px;
+    color:#fff;
+} 
+.module-con .module-con-provide .support .support-content .con-i span{
+    /* display: block; */
+    color:#fff;
+    font-size: 25px;
+    font-weight: 700;
+    /* float:left; */
+}
+
+/* .module-con .module-con-provide .support .support-con1{
+    position: relative;
+    left:113px;
+    top:135px;
+    background: url(../../images1/con1.png) no-repeat;
+}
+.module-con .module-con-provide .support .support-con2{
+    position: relative; 
+    left:60px;  
+    background: url(../../images1/con2.png) no-repeat;
+}
+.module-con .module-con-provide .support .support-con3{
+    position: relative;
+     left:60px;  
+     background: url(../../images1/con3.png) no-repeat;
+}
+.module-con .module-con-provide .support .support-con3{
+    position: relative;
+    left:5px;
+    top:135px;
+    background: url(../../images1/con3.png) no-repeat;
+}
+.module-con .module-con-provide .support .support-con5{
+    position: relative;
+    right:50px;
+    background: url(../../images1/con5.png) no-repeat;
+}
+.module-con .module-con-provide .support .support-con6{
+    position: relative;
+    right:50px;
+    background: url(../../images1/con6.png) no-repeat;
+}
+.module-con .module-con-provide .support .support-con7{
+    position: relative;
+    right:111px;
+    top:135px;
+    background: url(../../images1/con7.png) no-repeat;
+} */
